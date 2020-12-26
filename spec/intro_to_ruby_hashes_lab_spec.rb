@@ -8,7 +8,8 @@ describe "We can create complex, nested Hashes by implementing four methods:" do
         expect(base_hash.keys.count).to(eq(1), "Make sure you have at least one key defined in the monopoly hash")
       end
     end
-
+ 
+ 
     describe "the returned hash contains" do
       it "one key called :railroads that points to an empty hash" do
         expect(base_hash.has_key?(:railroads)).to(be_truthy, "Make sure to include a key called :railroads that points to an empty hash")
